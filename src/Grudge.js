@@ -1,5 +1,5 @@
 import React from 'react';
-if
+
 const Grudge = ({ grudge, onForgive }) => {
   const forgive = () => onForgive(grudge.id);
 
