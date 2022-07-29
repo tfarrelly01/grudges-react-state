@@ -13,7 +13,7 @@ const Grudge = React.memo(({ grudge }) => {
       <p>{grudge.reason}</p>
       <div className="Grudge-controls">
         <label className="Grudge-forgiven">
-          <input type="checkbox" checked={grudge.forgiven} onChange={forgive} />{' '}
+          <input type="checkbox" checked={grudge.forgiven} onChange={forgive} />{''}
           Forgiven
         </label>
       </div>
